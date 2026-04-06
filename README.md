@@ -1,5 +1,7 @@
 # Deja Vu Playground
 
+**[Live Demo](https://deja-vu-playground.vercel.app/)**
+
 An interactive visual builder for composing complex recurring schedules using the [Deja Vu](https://www.npmjs.com/package/@rutaks/deja-vu) library.
 
 Drag-and-drop simple scheduling expressions onto a canvas, combine them with set operations (union, intersection, difference), and see the results in a real-time calendar preview.
