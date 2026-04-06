@@ -206,7 +206,7 @@ export function Playground() {
           <Palette onLoadPreset={setNodes} />
 
           {/* Center: Canvas + Bottom Panel */}
-          <div className="flex-1 flex flex-col min-w-0">
+          <div className="flex-1 flex flex-col min-w-0 min-h-0">
             <Canvas nodes={nodes} onUpdate={setNodes} errors={errors} />
             <BottomPanel nodes={nodes} />
           </div>

@@ -52,7 +52,7 @@ export function Canvas({ nodes, onUpdate, errors }: CanvasProps) {
   const isEmpty = useEmptyScheduleCheck(nodes, errors.length > 0);
 
   return (
-    <div className="flex-1 flex flex-col min-w-0 bg-background">
+    <div className="flex-1 flex flex-col min-w-0 min-h-0 bg-background">
       <div className="h-10 flex items-center justify-between px-4 border-b border-border shrink-0">
         <div className="flex items-center gap-2">
           <span className="text-xs font-medium text-foreground">Builder</span>
